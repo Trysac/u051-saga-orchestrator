@@ -9,4 +9,5 @@ adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ### Added
 
+- Add the in-process saga orchestrator: ordered steps, reverse-order compensations, bounded retries, resumable state, and in-memory and atomic JSON-file stores.
 - Initial project structure from the factory utility template.
