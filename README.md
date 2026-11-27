@@ -1,7 +1,6 @@
 # saga-orchestrator
 
-[![PyPI version](https://img.shields.io/pypi/v/trysac-saga-orchestrator)](https://pypi.org/project/trysac-saga-orchestrator/)
-[![License: MIT](https://img.shields.io/pypi/l/trysac-saga-orchestrator)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![CI](https://github.com/Trysac/u051-saga-orchestrator/actions/workflows/ci.yml/badge.svg)](https://github.com/Trysac/u051-saga-orchestrator/actions/workflows/ci.yml)
 
 In-process saga orchestrator: ordered steps, reverse-order compensations, bounded retries and resumable persisted state.
@@ -12,10 +11,12 @@ Multi-step business operations that touch several services (reserve stock, charg
 
 ## Install
 
+Not published to PyPI yet. Install it from GitHub:
+
 ```sh
-pip install trysac-saga-orchestrator
+pip install "git+https://github.com/Trysac/u051-saga-orchestrator"
 # or
-uv add trysac-saga-orchestrator
+uv add "git+https://github.com/Trysac/u051-saga-orchestrator"
 ```
 
 Requires Python 3.10 or newer. No runtime dependencies.
